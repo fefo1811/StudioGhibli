@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-principal: "Andada Pro", serif;
+    --font-secundaria: "Archivo", sans-serif
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    background: #000 url("./../assets/background.png") no-repeat center center fixed;
+    font-family: var(--font-secundaria);
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: var(--font-principal);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
