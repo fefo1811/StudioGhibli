@@ -1,2 +1,33 @@
+@media (max-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
 
+        margin: 0 auto 9rem auto;
+        padding: 0 8rem;
+    }
 
+    .main_links {
+        display: flex;
+        flex-direction: column;
+
+        gap: 32px;
+    }
+
+    .main_conteudo {
+        order: 2;
+    }
+
+    .main_fantasma {
+        order: 1;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h3, p {
+        font-size: 1rem;
+    }
+}

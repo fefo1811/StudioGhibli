@@ -57,5 +57,17 @@ main .main_links {
 .fantasma {
     width: 513px;
     height: 431px;
+    position: relative;
+    animation: flutuacao 1.2s infinite alternate-reverse;
+}
+
+@keyframes flutuacao {
+    from {
+        top: -20px;
+    }
+
+    to {
+        top: 20px;
+    }
 }
 
