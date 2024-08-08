@@ -1,4 +1,14 @@
+@media (max-width: 480.98px) {
+    main {
+        padding: 0 1.4rem !important;
+    }
+}
+
 @media (max-width: 768px) {
+    header .navegacao {
+        margin: 0 2rem;
+    }
+
     main {
         display: grid;
         grid-template-columns: 1fr;

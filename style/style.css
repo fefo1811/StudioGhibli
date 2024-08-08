@@ -15,9 +15,15 @@ header .navegacao .nav_list {
     list-style: none;
 }
 
+header .navegacao .nav_menu {
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+}
+
 main {
     max-width: 1216px;
-    margin: 9rem auto;
+    margin: 5rem auto;
     height: 47%;
 
     display: grid;
@@ -30,7 +36,7 @@ main {
 main .main_conteudo {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 main .main_links {
@@ -55,8 +61,8 @@ main .main_links {
 }
 
 .fantasma {
-    width: 513px;
-    height: 431px;
+    /*width: 513px;*/
+    /*height: 431px;*/
     position: relative;
     animation: flutuacao 1.2s infinite alternate-reverse;
 }
