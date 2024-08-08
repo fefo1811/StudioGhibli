@@ -85,10 +85,11 @@ main .main_links {
 .footer {
     max-width: 1216px;
     margin: 0 auto;
-    text-align: center;
     padding: 3rem;
+
+    text-align: center;
     color: white;
+
     position: relative;
     bottom: 0;
-
 }
