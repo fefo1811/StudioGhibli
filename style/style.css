@@ -16,9 +16,13 @@ header .navegacao .nav_list {
 }
 
 header .navegacao .nav_menu {
-    display: grid;
+    padding: 2rem;
+}
+
+header .navegacao .nav_menu ul {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding: 1rem;
 }
 
 main {
