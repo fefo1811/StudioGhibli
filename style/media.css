@@ -7,6 +7,11 @@
 @media (max-width: 1024px) {
     header .navegacao {
         margin: 0 2rem;
+        padding: 1.5rem 0;
+    }
+
+    header .navegacao .nav_menu {
+        padding: 2rem 2rem 0 2rem;
     }
 
     main {
