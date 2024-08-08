@@ -27,7 +27,7 @@ header .navegacao .nav_menu ul {
 
 main {
     max-width: 1216px;
-    margin: 5rem auto;
+    margin: 3rem auto;
     height: 47%;
 
     display: grid;
@@ -81,3 +81,14 @@ main .main_links {
     }
 }
 
+/* Rodapé */
+.footer {
+    max-width: 1216px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem;
+    color: white;
+    position: relative;
+    bottom: 0;
+
+}
