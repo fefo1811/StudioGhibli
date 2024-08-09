@@ -52,6 +52,8 @@ main .main_links {
     font-size: 1.12rem;
     padding: 0.87rem 2rem;
     border-radius: 4px;
+    position: relative;
+    cursor: pointer;
 }
 
 .main_links a:first-child {
@@ -62,6 +64,10 @@ main .main_links {
 .main_links a:last-child {
     border: 2px solid #F1A5B1;
     color: #FFF;
+}
+
+.main_links a:active {
+    top: 5px;
 }
 
 .fantasma {
